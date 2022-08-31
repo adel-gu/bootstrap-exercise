@@ -3,3 +3,11 @@ node_modules
 app_screenshot.png
 
 MIT.md
+
+.hintrc
+
+.stylelintrc.json
+
+package.json
+
+package-lock.json
