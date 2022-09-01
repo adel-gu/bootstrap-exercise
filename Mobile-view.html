@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa"
+      crossorigin="anonymous"
+    ></script>
+    <style>
+      * {
+        border: 1px solid black;
+      }
+    </style>
+  </head>
+  <body class="container-fluid p-0">
+    <header class="bg-white border-bottom">
+      <nav class="navbar navbar-expand-md bg-white">
+        <div class="container-fluid">
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarTogglerDemo01"
+            aria-controls="navbarTogglerDemo01"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+
+          <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#"
+                  >Hello</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Portfolio</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">About</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Contact</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <section class="row align-items-start">
+      <div
+        class="col-12 flex-column align-items-center justify-content-center p-5"
+      >
+        <h1 class="display-1 my-5">Adel Guitoun</h1>
+        <p class="my-5">
+          Hello! I am a software developer! I can help you build a product,
+          feature or website. Take a look of my works. If you like what you see
+          and have a project you need coded, don’t hesitate and contact me.
+        </p>
+        <button class="btn btn-dark my-5">Start collaboration</button>
+      </div>
+      <div class="col-12 p-0">
+        <img
+          class="img-fluid"
+          src="./assets/desktop/hero-section/image-geometry_1.svg"
+          alt="Hero Decoration Image"
+        />
+      </div>
+    </section>
+
+    <section class="row align-items-center">
+      <div class="row col-12 p-0 m-0">
+        <div class="col-12 p-3">
+          <h4>Languages</h4>
+          <ul class="skill-item_list">
+            <li>JavaScript (ES5/ES6)</li>
+            <li>Ruby</li>
+            <li>HTML</li>
+            <li>CSS</li>
+          </ul>
+        </div>
+        <div class="col-12 p-3">
+          <h4>Frameworks</h4>
+          <ul class="skill-item_list">
+            <li>Bootstrap</li>
+            <li>Ruby on rails</li>
+            <li>RSpec</li>
+            <li>Capibara</li>
+            <li>Selenium</li>
+          </ul>
+        </div>
+        <div class="col-12 p-3">
+          <h4>Skills</h4>
+          <ul class="skill-item_list">
+            <li>Codekit</li>
+            <li>Codepen</li>
+            <li>GitHub</li>
+            <li>GitLAb</li>
+            <li>Terminal</li>
+          </ul>
+        </div>
+        <div class="col-12"></div>
+      </div>
+
+      <div class="col-12 px-5">
+        <h2 class="my-4">About</h2>
+        <p class="mb-4">
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+          eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
+          minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+          aliquip ea eiusmod
+        </p>
+        <button class="btn btn-dark mb-4">
+          <span>Get my CV</span>
+          <img src="./assets/icons/download-button.svg" alt="download cv" />
+        </button>
+      </div>
+    </section>
+
+    <section class="row mb-5 justify-content-center">
+      <h2 class="display-1 col-12">Get started</h2>
+      <p class="p-0">
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+        tempor incididunt ut labore et dolore magna. Lorem ipsum dolor sit amet,
+        consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
+        et dolore magna.
+      </p>
+      <form
+        class="p-0 m-0 mt-5 row justify-content-center"
+        action="https://formspree.io/f/xayknoyj"
+        method="post"
+      >
+        <div class="mb-3 pe-1 col-12 p-0">
+          <label class="col-12 form-label" for="user-name">Your name</label>
+          <input
+            class="col-12 form-control"
+            name="name"
+            type="text"
+            id="user-name"
+            placeholder="Please enter you name here..."
+            maxlength="30"
+            required
+          />
+        </div>
+
+        <div class="mb-3 ps-1 col-12 p-0">
+          <label class="col-12 form-label" for="user-email">Your email</label>
+          <input
+            class="col-12 form-control"
+            name="email"
+            id="user-email"
+            type="email"
+            placeholder="Please enter you email here..."
+            required
+          />
+        </div>
+
+        <div class="mb-3 col-12 p-0">
+          <label class="col-12 form-label" for="message">Your message</label>
+          <textarea
+            id="message"
+            class="col-12 form-control"
+            name="message"
+            cols="30"
+            rows="5"
+            maxlength="500"
+            placeholder="Enter your message here..."
+            required
+          ></textarea>
+        </div>
+
+        <button class="btn btn-dark col-12" type="submit">
+          Start collaboration
+        </button>
+      </form>
+    </section>
+
+    <footer class="row m-0 p-2 bg-dark justify-content-between">
+      <a class="col-12" href="#">
+        <span>Get my Resume</span>
+        <img src="./assets/footer-section/ic-get-cv.svg" alt="get cv" />
+      </a>
+      <div class="col-12">
+        <a href="https://stackoverflow.com/users/19077324/adel-guitoun">
+          <img
+            src="./assets/footer-section/ic_stackoverflow.svg"
+            alt="stackoverflow"
+          />
+        </a>
+        <a href="https://linkedin.com/in/adelguitoun">
+          <img src="./assets/footer-section/ic_twitter.svg" alt="twitter" />
+        </a>
+
+        <a href="https://github.com/adel-gu">
+          <img src="./assets/footer-section/ic-github.svg" alt="github" />
+        </a>
+
+        <a href="https://twitter.com/@GuitounAdel">
+          <img src="./assets/footer-section/ic_linkedin.svg" alt="linkedin" />
+        </a>
+        <a href="#">
+          <img src="./assets/footer-section/ic_medium.svg" alt="Medium" />
+        </a>
+        <a href="#">
+          <img src="./assets/footer-section/ic_angellist.svg" alt="angellist" />
+        </a>
+      </div>
+    </footer>
+  </body>
+</html>
