@@ -23,30 +23,46 @@
       integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa"
       crossorigin="anonymous"
     ></script>
+
+    <style>
+      .container,
+      .container-fluid {
+        border: 1px solid red;
+      }
+    </style>
   </head>
 
   <body>
     <div class="container p-4">
-      <header class="d-flex justify-content-between justify-content-sm-center">
-        <a href="#" id="logo-placeholder" class="d-block d-sm-none">Welcome</a>
-        <nav>
-          <img
-            src="images/burger-menu.png"
-            alt="menu"
-            id="burger-menu"
-            class="d-block d-sm-none"
-          />
-          <ul id="nav_menu mx-auto" class="nav d-none d-sm-flex">
-            <li class="nav-item">
-              <a href="#projects" class="nav-link text-dark">Portfolio</a>
-            </li>
-            <li class="nav-item">
-              <a href="#about-me " class="nav-link text-dark">About</a>
-            </li>
-            <li class="nav-item">
-              <a href="#contact-section" class="nav-link text-dark">Contact</a>
-            </li>
-          </ul>
+      <header>
+        <nav class="navbar navbar-expand-lg">
+          <div class="container-fluid">
+            <a class="navbar-brand d-lg-none" href="#">Welcome</a>
+            <button
+              class="navbar-toggler ms-auto"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#navbarSupportedContent"
+              aria-controls="navbarSupportedContent"
+              aria-expanded="false"
+              aria-label="Toggle navigation"
+            >
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                  <a class="nav-link" aria-current="page" href="#">Hello</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Portfolio</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link">Contact</a>
+                </li>
+              </ul>
+            </div>
+          </div>
         </nav>
       </header>
     </div>
